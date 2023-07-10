@@ -40,7 +40,7 @@ public class Main {
             myString = sc.nextLine();
             System.out.print("Insert a new String : ");
             String newString = sc.nextLine();
-            String replaceString = replaceString(myString, "mango", "rice");
+            String replaceString = replaceString(myString, oldString, newString);
             System.out.println("Old String is : " + myString);
             System.out.println("New String is : " + replaceString);
             System.out.println();
